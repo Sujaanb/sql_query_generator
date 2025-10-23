@@ -178,7 +178,7 @@ The frontend is preconfigured to connect to `http://localhost:8001`. If you need
 
 The backend configuration is managed in `backend/config.py`:
 
-- **API Version**: `/LS/content/v1`
+- **API Version**: `/SQG/content/v1`
 - **Server Port**: `8001`
 - **CORS Origins**: Configured for `localhost:3000`, `localhost:5173`, `localhost:8000`
 
@@ -236,7 +236,7 @@ The frontend will start at `http://localhost:5173`
 
 ### Endpoints
 
-#### `POST /LS/content/v1/generate`
+#### `POST /SQG/content/v1/generate`
 
 Generate content based on a user question.
 

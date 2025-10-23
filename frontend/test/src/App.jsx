@@ -24,7 +24,7 @@ function App() {
     setResponse(null)
 
     try {
-      const res = await fetch(`${API_URL}/LS/content/v1/generate`, {
+      const res = await fetch(`${API_URL}/SQG/content/v1/generate`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
